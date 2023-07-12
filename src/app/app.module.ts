@@ -13,7 +13,11 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
+    // Thêm FormsModule
+    // FormsModule là một module của Angular được sử dụng để xử lý các form
     FormsModule,
+    // Thêm HttpClientModule. 
+    // HttpClientModule là một module của Angular được sử dụng để cung cấp HttpClient
     HttpClientModule
   ],
   providers: [],
