@@ -3,7 +3,8 @@ import { Injectable } from '@angular/core';
 import { Task } from '../model/task';
 import { Observable } from 'rxjs';
 
-
+// @Injectable là một decorator trong Angular, được sử dụng để cho phép Angular tạo và quản lý instances của một class.
+// Chúng ta không cần phải thêm service vào danh sách providers của một module nào đó trong ứng dụng
 @Injectable({
   providedIn: 'root'
 })
