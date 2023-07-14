@@ -101,4 +101,9 @@ export class DashboardComponent implements OnInit{
     // editTaskValue = task_name
     this.editTaskValue = etask.task_name;
   }
+
+  dTask: Task = new Task();
+  callDeleteTask(deleteTask: Task){
+    this.dTask = deleteTask;
+  }
 }
